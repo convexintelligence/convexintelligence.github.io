@@ -1,4 +1,4 @@
-- counter: 20000
+- counter: 45000
   icon: ion-ios-chatboxes-outline
   text: Cups of Coffee
 - counter: 1500
@@ -7,6 +7,6 @@
 - counter: 1200
   icon: ion-ios-compose-outline
   text: Whiteboard Markers
-- counter: 300
+- counter: 100
   icon: ion-ios-timer-outline
-  text: Websites built
+  text: Cases analyzed
