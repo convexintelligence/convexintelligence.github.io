@@ -9,7 +9,7 @@
 @import url(//fonts.googleapis.com/css?family=Roboto+Condensed);
 @import url(//fonts.googleapis.com/css?family=Oswald);
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600);
-@import url(//fonts.googleapis.com/css?family=PT+Serif);
+@import url(//fonts.googleapis.com/css?family=Sorts+Mill+Goudy);
 @import url(//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 @import url(//fonts.googleapis.com/css?family=Volkhov:400italic);
 /* var text-decoration */
@@ -17,7 +17,7 @@
 	Common Css
 --*/
 body {
-  font-family: 'PT Serif', sans-serif;
+  font-family: 'Sorts Mill Goudy', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 h1,
@@ -684,7 +684,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background: #47424C;
   border: none;
   color: #fff;
-  font-family: 'PT Serif', sans-serif;
+  font-family: 'Sorts Mill Goudy', sans-serif;
   font-size: 18px;
 }
 /*--
@@ -729,7 +729,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
 }
 #contact-box .block h2 {
-  font-family: 'PT Serif', sans-serif;
+  font-family: 'Sorts Mill Goudy', sans-serif;
   font-weight: 300;
   color: #000;
   font-size: 28px;
