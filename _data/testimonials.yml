@@ -1,16 +1,16 @@
-- name: Rose Ray
-  title: CEO-Themefisher
-  testimonial: "This company created an e-commerce site with the tools to make our business a success, with innovative ideas. We feel that our site has unique elements that make us stand out from the crowd."
+- name: J D
+  title: Op. Head-Oil Exploration Firm
+  testimonial: "Prem and his team developed an analytical mode to optimize production standards efficiently that was fasttracked for implementation by top management. The procduction overhaul spawned a 4% increase in production."
   image: img/item-img1.jpg
-- name: Rose Ray sr.
-  title: CEO-Themefisher
-  testimonial: "An e-commerce site was created by this company with the tools to make our business a success, with innovative ideas. We feel that our site has unique elements that make us stand out from the crowd."
+- name: D M
+  title: CEO-Specialty Chemical Firm
+  testimonial: "Prem and his team helped us identify production ineffeciencies in plant operation due to the sub-optimal functioning of a unit. It reduced our overhead costs and increased our efficiency by 21%."
   image: img/item-img1.jpg
-- name: Rose Ray jr.
-  title: CEO-Themefisher
-  testimonial: "With the tools to make our business a success, this company created an e-commerce site, with innovative ideas. We feel that our site has unique elements that make us stand out from the crowd."
+- name: K M
+  title: Fmr. Director-Intelligence Firm
+  testimonial: "Prem has a thing for data. He is very careful about analyzing it and more so when interpreting the findings. In our business, life and death ride on data and Prem understood its value. His analytical models were very accurate. Not too shabby for a guy whom I first met at a bar"
   image: img/item-img1.jpg
-- name: Rose Ray III
-  title: CEO-Themefisher
-  testimonial: "We feel that our site has unique elements that make us stand out from the crowd. This company created an e-commerce site with the tools to make our business a success, with innovative ideas."
+- name: M K
+  title: CTO-Fintech Firm
+  testimonial: "Prem is currently helping us develop a Machine Learning based investment strategy for a large network of our HNI clients. He is meticulous and very precise when it comes to analyzing financial data. He is an excellent leader and I am thankful that our young development team is led by him."
   image: img/item-img1.jpg
