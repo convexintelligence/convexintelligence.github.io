@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Welcome to the blogs!
+title: Welcome to the blogs
 subtitle: Beginning of something fascinating
 date: 2019-05-01 19:00:00
 author: Prem
