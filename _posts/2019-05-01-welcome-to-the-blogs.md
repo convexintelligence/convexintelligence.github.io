@@ -7,7 +7,7 @@ author: Prem
 ---
 
 <div class="block">
-          <center><img src="{{ site.baseurl }}/img/prem.png" alt="Img"></center>
+          <left><img src="{{ site.baseurl }}/img/prem.png" alt="Img"></left>
           </div>
 
 Welcome to the blogging section of my website. I have been blogging for nearly a decade now. A couple of my blogs are still online and one of them gets a lot of visitors even now. Coming to this section, I would like to write about things that I have seen and experienced at work that have shaped my life so far. I hope at least a few people might benefit from my writings about my professional life and hobbies.
