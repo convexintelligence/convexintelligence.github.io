@@ -7,7 +7,7 @@ author: Prem
 ---
 
 <div class="block">
-          <center><img src="{{ site.baseurl }}/img/spock.jpg" alt="Img" style="width:400px;"/></center>
+          <center><img src="{{ site.baseurl }}/img/prem.png" alt="Img" style="width:500px;"/></center>
           </div>
 
 Welcome to my thoughts assimilator. I have been blogging for nearly a decade now. A couple of my sites are still online and one of them gets a lot of visitors even now. I wrote a lot about programming and technology back then. Here, I would like to write about things that I have seen and experienced at work that have shaped my life so far. I hope at least a few people might benefit from this effort.
