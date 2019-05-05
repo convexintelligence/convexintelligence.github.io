@@ -10,9 +10,7 @@ author: Prem
           <center><img src="{{ site.baseurl }}/img/prem.png" alt="Img" style="width:500px;"/></center>
           </div>
 
-Welcome to my thoughts assimilator. I have been blogging for nearly a decade now. A couple of my sites are still online and one of them gets a lot of visitors even now. I wrote a lot about programming and technology back then. Here, I would like to write about things that I have seen and experienced at work that have shaped my life so far. 
-
-As a starting point, I would like to repost some of the things that I wrote on my other sites. Although they are related to a few projects from early stages of my career, the lessons I learned have been tremendous and it is my humble belief that at least a few people might learn from me talking about my experience. So, read on....
+Welcome to my thoughts assimilator. I have been blogging for nearly a decade now. A couple of my sites are still online and one of them gets a lot of visitors even now. I wrote a lot about programming and technology back then. Here, I would like to write about things that I have seen and experienced at work that have shaped my life so far. As a starting point, I would like to repost some of the things that I wrote on my other sites. Although they are related to a few projects from early stages of my career, the lessons I learned have been tremendous and it is my humble belief that at least a few people might learn from me talking about my earlier experiences as well. So, read on....
 
 {% comment %}
 Might you have an include in your theme? Why not try it here!
