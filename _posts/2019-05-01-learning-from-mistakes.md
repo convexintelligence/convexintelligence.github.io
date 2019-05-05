@@ -7,13 +7,13 @@ author: Prem
 ---
 
 <div class="block">
-          <center><img src="{{ site.baseurl }}/img/ce.jpg" alt="Img"></center>
+          <center><img src="{{ site.baseurl }}/img/ce.jpg" alt="Img" style="width:590px;"/></center>
           </div>
 
 We experienced some unexpected close calls at work that required my complete attention over the last few days. It was a mess man! An unaccounted error in one of our models fucked us up! Long story short, a Russian colleague and I found some discrepancies in our model performance that rendered our strategy sub optimal. We carried out a careful review of our models and caught the motherfucking error - a simple statistical estimate that had grown over the years to have a life of its own! We performed a course correction and luckily, our losses were not that much.
 
 <div class="block">
-          <center><img src="{{ site.baseurl }}/img/whodunit.png" alt="Img"></center>
+          <center><img src="{{ site.baseurl }}/img/whodunit.png" alt="Img" style="width:572px;"/></center>
           </div>
 
 Coming back to the error, in situations like this, the first thing that comes to mind is, whodunit? But, what's the fucking use. My colleague and I found the source, but we realized it was our collective failure as a team for not having caught the error much earlier. It doesn't make any sense to put the blame on someone else and act as if it wasn't our mistake. Technically, it wasn't but the model was our responsibility. Though the management insisted on the source, we took the blame collectively. Boss man was pissed off, but hey, our losses were minimal, so he sort of calmed down. When you want to share the accolades, you should also share the failures. Else, there is no point in working as a unit. I have met my Russian colleague in person, only once, a couple of months back, when I visited my firm in Europe. Otherwise, we interact only over video conferencing. I was a little worried that he might not be game to take one for the team. But, before I could even ask, he insisted we take the bullet. I am so glad and lucky to work with such wonderful people. He and I lead a team of 14 and this incident has only made our team stronger and more tight knit than ever before.
