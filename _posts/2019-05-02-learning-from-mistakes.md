@@ -2,7 +2,7 @@
 layout: post
 title: Learning from Mistakes - Stop deflecting blame
 subtitle: Mistakes happen whether we like it or not. Our response to the situation will make or break us.
-date: 2019-05-01 21:11:27
+date: 2019-05-02 21:11:27
 author: Prem
 ---
 
@@ -30,6 +30,6 @@ If you deal with financial instruments, I am sure you would understand why avoid
           <center><img src="{{ site.baseurl }}/img/dam.jpg" alt="Img" style="width:640px;"/></center>
           </div>
 
-It is precisely for the aforementioned reason, there is very little room for error when working with financial products. You are like Damocles the whole time and there is absolutely no safety net! That's why I have always relied on my engineering and physics background to build models with a better prediction potential and safe bets. The error just showed that we were a bit complacent. Honestly, I could have just let it slide by and could have claimed that it was not a bug, but a feature. But, it would be intellectual dishonesty on my part if I had done that. As I had mentioned earlier, our losses were minimal. But if we had run the model long term, it would have been a disastrous investment strategy that would have actually killed the USP of our firm! Our urgency to correct it was solely motivated by our long term goals. 
+It is precisely for the aforementioned reason, there is very little room for error when working with financial products. You are like Damocles the whole time and there is absolutely no safety net! That's why I have always relied on my engineering and physics background to build better models. The error we caught earlier showed that we were a bit complacent. Had we run the model long term, it would have been a disastrous investment strategy that would have actually killed the USP of our firm!
 
-If you encounter something similar, please work on it as early as possible. There are instances, where I have seen people ignoring simple things only to descend into absolute chaos when it fucks them up. So if you spot something funky, investigate, investigate, investigate! Our models' predictions after rectifying the error were 2% better than before. But it saved a lot of money and made our strategy unique -  the reason why people come to us in the first place! Mathematical elements don't care about your hard work or feelings. If you let your guard down, even for a little while, it would fuck you up for good! That's why math is fucking awesome!
+If you encounter something similar, please work on it as early as possible. There are instances, where I have seen teams ignore simple things only to descend into absolute chaos later when it fucks them up real bad. So if you spot something funky - investigate, investigate, investigate! Our models' predictions after rectifying the error were 2% better than before. But it saved a lot of money and made our strategy unique -  the reason why people come to us in the first place! Mathematical elements don't care about your hard work or feelings. If you let your guard down, even for a little while, it will carve you up for good. Regardless, working with math is spiritually invigorating!
