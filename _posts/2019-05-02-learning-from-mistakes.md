@@ -10,7 +10,7 @@ author: Prem
           <center><img src="{{ site.baseurl }}/img/ce.jpg" alt="Img" style="width:590px;"/></center>
           </div>
 
-We experienced some unexpected close calls at work that required my complete attention over the last few days. It could have become a huge mess! Long story short, a colleague and I found some discrepancies in our model performance that rendered our strategy sub optimal. We carried out a careful review and caught the motherfucker - a simple statistical estimation error that started to have a life of its own! We performed an immediate course correction and were able to improve model behavior.
+We experienced some unexpected close calls at work that required my complete attention over the last few days. It could have become a huge mess! Long story short, a colleague and I found some discrepancies in our model performance that rendered our strategy sub optimal. We carried out a careful review and caught the motherfucker - a simple statistical estimation error borne out of few outliers in our dataset that was missed by our data sanitization team. Consequently, the error had started to have a life of its own! We performed an immediate course correction and were able to improve model behavior.
 
 <div class="block">
           <center><img src="{{ site.baseurl }}/img/whodunit.png" alt="Img" style="width:572px;"/></center>
