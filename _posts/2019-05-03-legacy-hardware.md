@@ -7,7 +7,7 @@ author: Prem
 ---
 
 <div class="block">
-          <left><img src="{{ site.baseurl }}/img/sunblade.jpg" alt="Img" style="width:700px;"/></left>
+          <left><img src="{{ site.baseurl }}/img/sunblade.jpg" alt="Img" style="width:640px;"/></left>
           </div>
 
 I used to collect old computers when I was in Europe. The very first one was a Sun Blade 1000. Our research facility experienced a growth spurt then and our senior Sysadmin felt that scaling our UNIX server and computing lab would cost a fortune. He advised the boss to replace it with a much cheaper, more hands on DIY Linux server to handle all our needs. Talk about cost cutting and every boss will start drooling, and so did ours as well. Our computing lab's entire Sun Blade fleet suddenly felt obsolete and was off to the chopping block when I requested our Sysadmin to give me at least one machine. He gave 7! I had a small accommodation back then and hence, couldn't afford all of them. Took a couple of them home and set them up in my cellar and they stayed with me until I left Europe. I ran NetBSD on one of them and OpenBSD on another. Monstrous piece of hardware and I really loved them. 
@@ -17,19 +17,19 @@ The passion for making old things work took a turn for the worst after a while t
 Here are a few screens from sometime back!
 
 <div class="block">
-          <left><img src="{{ site.baseurl }}/img/tecra.jpg" alt="Img" style="width:700px;"/></left>
+          <left><img src="{{ site.baseurl }}/img/tecra.jpg" alt="Img" style="width:640px;"/></left>
           </div>
           
 <div class="block">
-          <left><img src="{{ site.baseurl }}/img/tecra2.jpg" alt="Img" style="width:700px;"/></left>
+          <left><img src="{{ site.baseurl }}/img/tecra2.jpg" alt="Img" style="width:640px;"/></left>
           </div>
           
 <div class="block">
-          <left><img src="{{ site.baseurl }}/img/satellite.jpg" alt="Img" style="width:700px;"/></left>
+          <left><img src="{{ site.baseurl }}/img/satellite.jpg" alt="Img" style="width:640px;"/></left>
           </div>
           
 Here's a screenshot of NetBSD 5.1 running on an old Dell Latitude salvaged from trash.
 
 <div class="block">
-          <left><img src="{{ site.baseurl }}/img/netbsd.png" alt="Img" style="width:700px;"/></left>
+          <left><img src="{{ site.baseurl }}/img/netbsd.png" alt="Img" style="width:640px;"/></left>
           </div>
