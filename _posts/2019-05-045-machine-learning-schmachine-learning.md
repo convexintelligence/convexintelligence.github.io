@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Old habits die hard
-subtitle: Why I still use a fucking Blackberry in 2019?
-date: 2019-05-04 19:43:39
+title: Machine Learning Schmachine Learning
+subtitle: Machine Learning is fantastic when the situation warrants its use. Else, it's a fucking overkill!
+date: 2019-05-05 00:36:25
 author: Prem
 ---
 
