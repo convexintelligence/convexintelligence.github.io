@@ -6,7 +6,7 @@ date: 2019-05-01 19:00:00
 author: Prem
 ---
 
-<div style="float: left">
+<div style="float: right">
           <left><img src="{{ site.baseurl }}/img/prem.png" alt="Img" style="width:500px;"/></left>
           </div>
 
