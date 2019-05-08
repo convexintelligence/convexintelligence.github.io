@@ -6,7 +6,7 @@ date: 2019-05-04 19:43:39
 author: Prem
 ---
 
-<div style="float: right">
+<div class="block">
           <left><img src="{{ site.baseurl }}/img/curve.jpg" alt="Img" style="width:640px;"/></left>
           </div>
 
@@ -14,7 +14,7 @@ On shifting back to India, I had a few other things to take care of and hence, c
 
 I get asked many times as to why I collect old stuff. I cannot really explain why. May be it is the excitement of repairing and making them work again. I look at old hardware like I do art. Age dictates value. A common misconception about collectors of computing devices is that we typically end up using the machines as our daily drivers. That is untrue. Sure you can have a fully functioning Atari Portfolio, but to write an entire novel on it today would be an overkill. What is not an overkill though, is hacking the portfolio and giving it a backlit screen to make the experience even more awesome! So you see, our priorities are different when it comes to collectibles.
 
-<div style="float: right">
+<div class="block">
           <left><img src="{{ site.baseurl }}/img/portfolio.jpg" alt="Img" style="width:700px;"/></left>
           </div>
 
@@ -22,11 +22,11 @@ As you can see in the above picture, two of my Atari Portfolio's are on display 
           
 When I started out as a consultant, Blackberry basically became my spouse. I spoke more to it than anyone else. It was a fantastic phone and I was very disappointed when they went almost bankrupt thanks to iOS and Android. Around that time, discussing Blackberry's future was a favorite conversation by the water cooler. My opinion back then was for them to get out of phone business entirely and reinvent themselves as a security and software company. My reasoning behind it was that one cannot imagine a Blackberry device without a keyboard and given the software models of both iOS and Android, more apps and programs will become available for those two platforms than Blackberry OS. Steve Jobs successfully demonized the keyboard in his first IPhone speech and once touchscreens became all the rage, Blackberry became almost an afterthought. True, they came up with the Z3, Z10 and Z30. But for the true Blackberry fan, those phones did nothing. The newer Classic with the keyboard and touchscreen was an absolute joy though. If you're a keyboard slut like me, you would understand why Blackberry was great. Coming to security, this is where Blackberry has no competition. iOS and Android devices back then were worthless pieces of junk as far as security was concerned and not a lot of things have changed today. Security space is where the company is focusing right now and no wonder they are slowly rising up again. TCL is doing it's best in keeping Blackberry, the phone alive with their Key series and Motion. I have mixed emotions about Blackberry and Android, but I will admit that the security infrastructure built in those models is exactly what other Android phone manufacturers should look into. 
 
-<div style="float: right">
+<div class="block">
           <left><img src="{{ site.baseurl }}/img/curve2.jpg" alt="Img" style="width:700px;"/></left>
           </div>
 
-<div style="float: right">
+<div class="block">
           <left><img src="{{ site.baseurl }}/img/bberry.jpg" alt="Img" style="width:700px;"/></left>
           </div>
 
