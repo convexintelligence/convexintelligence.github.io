@@ -6,7 +6,7 @@ date: 2019-05-03 19:11:27
 author: Prem
 ---
 
-<div class="block">
+<div style="float: right">
           <left><img src="{{ site.baseurl }}/img/sunblade.jpg" alt="Img" style="width:700px;"/></left>
           </div>
 
@@ -16,20 +16,20 @@ The passion for making old things work took a turn for the worst after a while t
 
 Here are a few screens from sometime back!
 
-<div class="block">
+<div style="float: right">
           <left><img src="{{ site.baseurl }}/img/tecra.jpg" alt="Img" style="width:700px;"/></left>
           </div>
           
-<div class="block">
+<div style="float: right">
           <left><img src="{{ site.baseurl }}/img/tecra2.jpg" alt="Img" style="width:700px;"/></left>
           </div>
           
-<div class="block">
+<div style="float: right">
           <left><img src="{{ site.baseurl }}/img/satellite.jpg" alt="Img" style="width:700px;"/></left>
           </div>
           
 Here's a screenshot of NetBSD 5.1 running on an old Dell Latitude salvaged from trash.
 
-<div class="block">
+<div style="float: right">
           <left><img src="{{ site.baseurl }}/img/netbsd.png" alt="Img" style="width:700px;"/></left>
           </div>
