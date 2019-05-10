@@ -19,9 +19,6 @@ The presentation was well received by everyone and I was asked to write an artic
 
 ### Define Big Data
 
-A while back, there was a leak of a LinkedIn password data in the form of a list of unsalted SHA-1 hashes. A few sites had password check tools up such that you could provide your password or a hash of it and it’d tell you whether it was found in the leaked information.
+A while back, I managed to convince a research acquaintance of mine to give access to some static human liver cell data in the form of a list of gene expression levels across a select sample. You could do some preliminary analysis with highly expensive tools that would connect to a database and let you find correlations that are properly annotated. But the programs were slow and database errors were common. Frankly, the database was a stretch and I was perplexed that a unique query of an amount of immutable dataset.
 
-These sites were all really slow, and would sometimes report database errors. I found it curious that anyone would even consider a database for a fixed-size single record lookup of a small amount of immutable data.
-
-I downloaded the data set and played with it during a meeting. In about a half hour, I had a small server that could load the data set into memory in a couple seconds and serve responses from memory stupidly fast an with perfect horizontal scalability.
-
+I set up a small server pretty quickly that could easily load the data into memory for a few seconds and throw a response ridiculously faster with a pitch perfect horizontal scalability.
