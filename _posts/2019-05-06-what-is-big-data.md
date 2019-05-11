@@ -19,17 +19,17 @@ The presentation was well received by everyone and I was asked to write a very b
 ```
 **The Big Data Hype - Is it worth it? By Prem K. Murugan, Research Engineer, Model Development Division, BVT, CVT, WIW, ISR & IST**
 
-### Are you really working with "Big Data"?
+Are you really working with "Big Data"?
 
 In the Winter of 2005, a research acquaintance gave me access to closed source clinical data to see if we could exploit it to find some interesting interactions with the new method I was developing. It was great, since I knew the data that I had banked on was going to be delayed by another six months and what better way to validate your algorithm with a similar dataset. The data was a mess and required a lot of preprocessing to render it analysis-ready in the first place. Most importantly, it was not annotated, making it completely useless. So, the first thing to do would be to sanitize and structure the data in a way that relevant entries could be checked against available information in a few sites that would let you annotate the data. Basically, we were looking for the presence of a certain element in the data. But those sites were painstakingly slow and I always encountered database errors. Frankly though, I was perplexed that a fixed-size unique query of an amount of immutable dataset would even warrant a database.
 
 So, I set up a small server pretty quickly that could easily load the relevant entries into memory for a few seconds and throw a response ridiculously faster with a pitch perfect horizontal scalability.
 
-### Scope Planning
+Scope Planning
 
 The data I had was around 650MB. That was it. My firefox browser uses more memory than this, yet people deployed multi-tier infrastructure to address distinctive fucking queries . They are complex, sluggish and extremely fragile.
 
-### Do I really need a fucking Database?
+Do I really need a fucking Database?
 
 Now, this is exactly the reason why I am writing this. People have gone a little overboard with thinking up big solutions to small problems. More so, since the word "Big Data" started to become a big part of the technology landscape. I’m not trying to pick on any particular person, but I have an example that helps make the point pretty clearly.
 
@@ -41,7 +41,7 @@ The spec said “1.2-1.5gigs". I case tested a scenario that required close to 2
 
 I gave him the server code I had written earlier to get him interested. It contains both the data structuring routine as well as a web server that loads that file into memory and returns an HTTP status that indicates the presence of the element of interest. Honestly, it would take no more than half and hour to code it.
 
-### Conclusion
+Conclusion
 
 “Big Data” still lacks a proper definition, but as a rule of thumb, here are a few indicators that you’re definitely not working with big data:
 
