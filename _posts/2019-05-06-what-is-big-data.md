@@ -17,7 +17,7 @@ Around 2006, I gave a presentation about "Big Data" at our organization to a gro
 The presentation was well received by everyone and I was asked to write a very brief article capturing the gist of my presentation for internal circulation. The following is what I wrote in Spring 2006. It was based on the analysis of a biological dataset sample and the process flow that sort of indicate whether the data you are working with is big or not. Back in 2006, the definition of big data was not clear and there was more confusion about the term than it is now. Anyway, read on ....
 
 ```
-**The Big Data Hype - Is it worth it? By Prem K. Murugan, Research Engineer, Model Development Division, BVT, CVT, WIW, ISR & IST**
+The Big Data Hype - Is it worth it? By Prem K. Murugan, Research Engineer, Model Development Division, BVT, CVT, WIW, ISR & IST**
 
 Are you really working with "Big Data"?
 
