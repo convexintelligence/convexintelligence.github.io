@@ -32,25 +32,15 @@ The data I had access to had 7.5 million hashes. As you know, SHA-1 hashes are 2
 
 Now, this is exactly the reason why I am writing this. People have gone a little overboard with thinking up big solutions to small problems. More so, since the word "Big Data" started to become a big part of the technology landscape. I’m not trying to pick on any particular person, but I have an example that helps make the point pretty clearly.
 
-I happened to find a question yesterday in one of my usual hangouts about hash presence checks that was exactly the same problem that I had illustrated earlier. The question was tagged bigdata. In this case, it was “a few million” SHA-256es.
+I happened to find a question yesterday in one of my usual hangouts about hash presence checks that was exactly the same problem that I had illustrated earlier. The question was tagged bigdata. In this case, it was “a few million” SHA-256es. Initially, the gentleman attempted to use both MySQL and NoSQL to solve the problem. Apparently NoSQL used too much memory (presumably using hex encoded keys, duh!) and MySQL was too slow, so he table sharding by first nibble, but it still was too slow, so he asked for help. I liked a couple of answers that were (reasonably sensible) suggestions for MySQL. Some schema improvements and configuration parameters that will help with efficiency. Another was suggesting some combination of hbase, redis, and cassandra. That there ladies and gentlemen is a fucking overkill! This is a super small scale problem.
 
-Initially, the gentleman attempted to use both MySQL and NoSQL to solve the problem. Apparently NoSQL used too much memory (presumably using hex encoded keys, duh!) and MySQL was too slow, so he table sharding by first nibble, but it still was too slow, so he asked for help.
-
-I liked a couple of answers that were (reasonably sensible) suggestions for MySQL. Some schema improvements and configuration parameters that will help with efficiency.
-
-Another was suggesting some combination of hbase, redis, and cassandra. That there ladies and gentlemen is a fucking overkill! This is a super small scale problem.
-
-The spec said “several million” of these hashes. I wrote a small test case scenario with 50 million hashes. 50e6 * 32 is about one and a half gigs of RAM. It’d be unusual to find a computer that couldn’t spare 1.5GB of RAM for such processing. You have to get up to about a billion hashes before it starts to get a little harder.
-
-"This is all fine, but how do you scale this shit!“ you say? Last time I checked, an EC2 instance that can hold about 8 billion such hashes in memory costs about $3.50 per hour. By the time you get to that level, you can think about something better anyway.
+The spec said “several million” of these hashes. I wrote a small test case scenario with 50 million hashes. 50e6 * 32 is about one and a half gigs of RAM. It’d be unusual to find a computer that couldn’t spare 1.5GB of RAM for such processing. You have to get up to about a billion hashes before it starts to get a little harder. "This is all fine, but how do you scale this shit!“ you say? Last time I checked, an EC2 instance that can hold about 8 billion such hashes in memory costs about $3.50 per hour. By the time you get to that level, you can think about something better anyway.
 
 ### I hate coding myself you moron!
 
 I gave him the server code I had written earlier to get him interested. It contains both the text -> binary format conversion thingy as well as a web server that loads that file into memory and returns an HTTP status that indicates presence of a hash. Honestly, it would take no more than half and hour to code it.
 
-Fast forward a few weeks, I had written a stupid hashset. This actually simplifies the discussed problem.
-
-Below is a complete server using hashset and net/http that will return HTTP 204 on a hit and HTTP 410 on a miss given a GET request to /[sha-256].
+Fast forward a few weeks, I had written a stupid hashset. This actually simplifies the discussed problem. Below is a complete server using hashset and net/http that will return HTTP 204 on a hit and HTTP 410 on a miss given a GET request to /[sha-256].
 
 ```go
 package main
@@ -110,6 +100,4 @@ As you see, loading the hashes is taken care of by half the program and the othe
 * If it fits on your laptop’s SSD, it’s not big data
 * If it fits on a single hard drive, it’s not big data
 
-One might even argue that if you can fit the data into a single computer, it’s not worth calling it big data, though big data processing tools can benefit even on smaller scale.
-
-In the meantime, enjoy the smaller data in life. It’s fun and easy.
+One might even argue that if you can fit the data into a single computer, it’s not worth calling it big data, though big data processing tools can benefit even on smaller scale. In the meantime, enjoy the smaller data in life. It’s fun and easy.
