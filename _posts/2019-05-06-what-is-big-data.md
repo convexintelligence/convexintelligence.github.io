@@ -16,6 +16,7 @@ Around 2006, I gave a presentation about "Big Data" at our organization to a gro
 
 The presentation was well received by everyone and I was asked to write a very brief article capturing the gist of my presentation for internal circulation. The following is what I wrote in Spring 2006. It was based on the analysis of a biological dataset sample and the process flow that sort of indicate whether the data you are working with is big or not. Back in 2006, the definition of big data was not clear and there was more confusion about the term than it is now. Anyway, read on ....
 
+```
 **The Big Data Hype - Is it worth it? By Prem K. Murugan, Research Engineer, Model Development Division, BVT, CVT, WIW, ISR & IST**
 
 ### Are you really working with "Big Data"?
@@ -32,7 +33,7 @@ The data I had was around 650MB. That was it. My firefox browser uses more memor
 
 Now, this is exactly the reason why I am writing this. People have gone a little overboard with thinking up big solutions to small problems. More so, since the word "Big Data" started to become a big part of the technology landscape. I’m not trying to pick on any particular person, but I have an example that helps make the point pretty clearly.
 
-I happened to find a question yesterday in one of my usual hangouts about data annotation that was exactly the same problem that I had written earlier. The question was tagged bigdata. In this case, it was “1.2-1.5 gigs". Initially, the gentleman attempted to use both MySQL and NoSQL to solve the problem. Apparently NoSQL used too much memory (presumably using hex encoded keys, duh!) and MySQL was too slow, so he table sharding by first nibble, but it still was too slow, so he asked for help. I liked a couple of answers that were (reasonably sensible) suggestions for MySQL. Some schema improvements and configuration parameters that will help with efficiency. Another was suggesting some combination of hbase and cassandra. That there ladies and gentlemen is a fucking overkill! This is a super small scale problem.
+I happened to find a question yesterday in one of my usual hangouts about data annotation that was exactly the same problem that I had written earlier. The question was tagged `bigdata`. In this case, it was “1.2-1.5 gigs". Initially, the gentleman attempted to use both MySQL and NoSQL to solve the problem. Apparently NoSQL used too much memory (presumably using hex encoded keys, duh!) and MySQL was too slow, so he table sharding by first nibble, but it still was too slow, so he asked for help. I liked a couple of answers that were (reasonably sensible) suggestions for MySQL. Some schema improvements and configuration parameters that will help with efficiency. Another was suggesting some combination of hbase and cassandra. That there ladies and gentlemen is a fucking overkill! This is a super small scale problem.
 
 The spec said “1.2-1.5gigs". I case tested a scenario that required close to 2 gigs of RAM. It’d be unusual to find a computer that couldn’t spare 2GB of RAM for such processing. You have to get up to considerably more gigs before it starts to get a little harder. "This is all fine, but how do you scale this shit!“ you say? Last time I checked, an EC2 instance that can hold about that kind of data in memory costs about $3.50 per hour. By the time you get to that level, you can think about something better anyway.
 
@@ -50,3 +51,5 @@ I gave him the server code I had written earlier to get him interested. It conta
 * If it fits on a single hard drive, it’s not big data
 
 One might even argue that if you can fit the data into a single computer, it’s not worth calling it big data, though big data processing tools can benefit even on smaller scale. In the meantime, enjoy the smaller data in life. It’s fun and easy.
+
+```
