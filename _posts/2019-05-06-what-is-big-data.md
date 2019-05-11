@@ -14,7 +14,7 @@ author: Prem
 
 Around 2011, I gave a presentation about "Big Data" at our organization to a group of engineers and analysts, who had visited us from HQ. I was the primary "Data Dude" at our facility up until that point and I was leaving the company in two months. Naturally, my boss wanted to pass on some of what I have learned over the years to the visiting team. Before beginning my career there, I was heavily into dynamic modeling. So, ODE's, DAE's, PDE's dominated my day to day life along with the occasional stochastic process simulations. Data guided model development is a Top Down approach with more inherent uncertainties compared to deterministic modeling. But, when done correctly (and by that I mean conservatively), it is the most potent thing in the modeling arsenal. Equipped with patterns/relationships gleaned/infered from data, one can easily build a bottom up strategy to effectively quantify dynamics. For an engineer, this is where the secret sauce is! Top Down leads to Bottom Up leads to model goal. Such a Middle Out approach has always worked out best in my experience with engineering simulations. 
 
-The presentation was well received by everyone and I was asked to write a very brief article capturing the gist of my presentation for internal circulation. I was quite interested in Cryptography at that time and my llustration of Big Data was based on it, since I couldn't talk about my main project (more on that later). Also, I was learning Go and wanted to showcase my Go code to analyze this problem. The following is what I wrote in Spring 2011. It was based on the analysis of some password dataset and the process flow that sort of indicate whether the data you are working with is big or not. Trust me folks, even back in 2011, the definition of big data was not clear and there was more confusion about the term than it is now. Anyway, read on ....
+The presentation was well received by everyone and I was asked to write a very brief article capturing the gist of my presentation for internal circulation. I was quite interested in Cryptography at that time and my llustration of Big Data was based on it, since I couldn't talk about my main project (more on that later). Also, I wanted to showcase my Go code to analyze this problem. The following is what I wrote in Spring 2011. It was based on the analysis of some password dataset and the process flow that sort of indicate whether the data you are working with is big or not. Trust me folks, even back in 2011, the definition of big data was not clear and there was more confusion about the term than it is now. Anyway, read on ....
 
 **The Big Data Hype - Is it worth it? By Prem K. Murugan, Senior Analyst, Model Development Division, DM, IST & ISR**
 
@@ -48,7 +48,7 @@ The spec said “several million” of these hashes. I wrote a small test case s
 
 I gave him the server code I had written earlier to get him interested. It contains both the text -> binary format conversion thingy as well as a web server that loads that file into memory and returns an HTTP status that indicates presence of a hash. Honestly, it would take no more than half and hour to code it.
 
-Fast forward a few weeks, I had written a stupid hashset in Go. This actually simplifies the discussed problem.
+Fast forward a few weeks, I had written a stupid hashset. This actually simplifies the discussed problem.
 
 Below is a complete server using hashset and net/http that will return HTTP 204 on a hit and HTTP 410 on a miss given a GET request to /[sha-256].
 
