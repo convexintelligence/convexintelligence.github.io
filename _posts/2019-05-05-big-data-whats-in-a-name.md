@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Big Data Series ! - What's in a name?
+title: Big Data Series 1 - What's in a name?
 subtitle: Big fucking data! Wha's the big fucking deal?
 date: 2019-05-05 00:36:25
 author: Prem
