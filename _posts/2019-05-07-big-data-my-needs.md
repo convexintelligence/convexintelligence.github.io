@@ -7,7 +7,7 @@ author: Prem
 ---
 
 <div class="block">
-          <left><img src="{{ site.baseurl }}/img/bd3.jpg" alt="Img" style="width:5500px;"/></left>
+          <left><img src="{{ site.baseurl }}/img/bd3.jpg" alt="Img" style="width:500px;"/></left>
           </div>
           
 One of the occupational hazards of being a management consultant is that sometimes you have to be the harbinger of bad news. It's depressing, to say the least. But, you have no other choice. It's always better to be direct and not dance around the issue. It's all part of the package, you see. If a consultant tells you that he or she has never encountered a situation like that, don't believe 'em.
