@@ -117,8 +117,8 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
   height: 100%;
   /*--background: linear-gradient(to left, #8b86a3, #322e40);--*/
-  background: #101010;
-  opacity: 0.9;
+  background: #1d192c;
+  opacity: 0.8;
 }
 #slider .block {
   color: #E3E3E4;
@@ -267,7 +267,7 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-bottom: 20px;
 }
 #feature .btn-view-works {
-  background: #101010;
+  background: #655E7A;
   color: #fff;
   padding: 10px 20px;
 }
