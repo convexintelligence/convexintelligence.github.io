@@ -12,12 +12,14 @@
 @import url(//fonts.googleapis.com/css?family=PT+Serif);
 @import url(//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 @import url(//fonts.googleapis.com/css?family=Volkhov:400italic);
+@import url(//fonts/googleapis.com/css?family=Playfair+Display);
+@import url(//fonts/googleapis.com/css?family=Source+Sans+Pro);
 /* var text-decoration */
 /*--
 	Common Css
 --*/
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 h1,
@@ -26,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
 }
 h2 {
   font-size: 30px;
